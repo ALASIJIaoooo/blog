@@ -1,4 +1,18 @@
+@import "custom";
 @import "~bootstrap/scss/bootstrap";
-//body{
-//  background-image: url("../images/logo.jpg");
-//}
+
+.navbar-cjx{
+  border-bottom: 1px solid $gray-200;
+
+  .nav-item{
+    margin-left: 1rem;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+button.navbar-toggler:focus{
+  outline: none;
+}

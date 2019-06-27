@@ -1,0 +1,17 @@
+$font-family-sans-serif:
+  // Safari for macOS and iOS (San Francisco)
+        -apple-system,
+          // Chrome < 56 for macOS (San Francisco)
+        BlinkMacSystemFont,
+          // Windows
+        "Segoe UI",
+          // Android
+        "Roboto",
+          // Basic web fallback
+        "Helvetica Neue","Microsoft YaHei","WenQuanYi Micro Hei", Arial, sans-serif,
+          // Emoji fonts
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+$navbar-light-color:                #212519;
+$navbar-light-hover-color:          #DE3712;
+$navbar-light-active-color:         #DE3712;
